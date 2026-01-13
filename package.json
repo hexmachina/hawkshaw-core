@@ -1,0 +1,29 @@
+{
+  "name": "hawkshaw",
+  "version": "1.0.0",
+  "description": "Data editor interface",
+  "main": "dist/index.js",
+  "bin": {
+    "hawkshaw": "dist/index.js"
+  },
+  "scripts": {
+    "npm-install": "npm install",
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev src/index.ts",
+    "test": "test"
+  },
+  "author": "Tom Wilhelm",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "@types/commander": "^2.12.5",
+    "@types/inquirer": "^9.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.7",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
