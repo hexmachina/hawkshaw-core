@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 import { Command } from "commander";
+import { CreateCommand } from "./commands/create";
+import { ExportCommand } from "./commands/export";
+import { ValidateCommand } from "./commands/validate";
+import { ImportSheetCommand } from "./commands/importSheet";
+import { CleanSheetCommand } from "./commands/cleanSheet";
 
 const program = new Command();
 
@@ -8,5 +13,10 @@ program
   .description("A sample CLI built with Node.js + TypeScript")
   .version("1.0.0");
 
+program.addCommand(CreateCommand());
+program.addCommand(ExportCommand());
+program.addCommand(ValidateCommand());
+program.addCommand(ImportSheetCommand());
+program.addCommand(CleanSheetCommand());
 // Parse CLI arguments
 program.parse(process.argv);
