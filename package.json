@@ -17,7 +17,7 @@
     "test": "test"
   },
   "files": [
-    "dist"
+    "dist/"
   ],
   "author": "Tom Wilhelm",
   "license": "MIT",
