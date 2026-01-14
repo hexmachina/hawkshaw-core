@@ -17,7 +17,8 @@
     "test": "test"
   },
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "tsconfig.json"
   ],
   "author": "Tom Wilhelm",
   "license": "MIT",
