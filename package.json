@@ -12,6 +12,7 @@
   "scripts": {
     "npm-install": "npm install",
     "build": "tsc",
+    "prepare": "npm run build",
     "start": "ts-node src/index.ts",
     "dev": "ts-node-dev src/index.ts",
     "test": "test"
