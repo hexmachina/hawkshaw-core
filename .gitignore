@@ -112,6 +112,7 @@ dist
 # Docusaurus cache and generated files
 .docusaurus
 
+package-lock.json
 
 # custom added ignores below
 bundle

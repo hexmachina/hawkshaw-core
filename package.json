@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Data editor interface",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/hawkshaw.js",
+  "module": "dist/hawkshaw.js",
   "types": "./dist/index.d.ts",
   "bin": {
     "hawkshaw": "dist/index.js"
