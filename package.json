@@ -7,7 +7,8 @@
   "module": "dist/hawkshaw.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "hawkshaw": "dist/index.js"
+    "hawkshaw-cli": "dist/index.js",
+    "hawkshaw": "dist/hawkshaw.js"
   },
   "scripts": {
     "npm-install": "npm install",
