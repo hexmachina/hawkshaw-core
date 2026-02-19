@@ -5,11 +5,7 @@
   "type": "module",
   "main": "dist/hawkshaw.js",
   "module": "dist/hawkshaw.js",
-  "types": "dist/index.d.ts",
-  "bin": {
-    "hawkshaw-cli": "dist/index.js",
-    "hawkshaw": "dist/hawkshaw.js"
-  },
+  "types": "dist/hawkshaw.d.ts",
   "scripts": {
     "npm-install": "npm install",
     "build": "tsc",
