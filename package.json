@@ -2,9 +2,7 @@
   "name": "hawkshaw",
   "version": "1.0.0",
   "description": "Data editor interface",
-  "type": "module",
   "main": "dist/hawkshaw.js",
-  "module": "dist/hawkshaw.js",
   "types": "dist/hawkshaw.d.ts",
   "scripts": {
     "npm-install": "npm install",

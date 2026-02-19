@@ -1,7 +1,7 @@
 export class Hawkshaw {}
 
 module.exports = exports = Hawkshaw;
-module.exports.Ajv = Hawkshaw;
+module.exports.Hawkshaw = Hawkshaw;
 Object.defineProperty(exports, "__esModule", { value: true });
 
 export default Hawkshaw;
