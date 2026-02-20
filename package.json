@@ -2,8 +2,8 @@
   "name": "hawkshaw",
   "version": "1.0.0",
   "description": "Data editor interface",
-  "main": "dist/hawkshaw.js",
-  "types": "dist/hawkshaw.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "npm-install": "npm install",
     "build": "tsc",
@@ -13,8 +13,7 @@
     "test": "test"
   },
   "files": [
-    "dist/**/*",
-    "tsconfig.json"
+    "dist/**/*"
   ],
   "author": "Tom Wilhelm",
   "license": "MIT",
@@ -31,6 +30,8 @@
     "@types/node": "^25.0.7",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "tslib": "2.8.1",
+    "@rollup/plugin-typescript": "12.3.0"
   }
 }
